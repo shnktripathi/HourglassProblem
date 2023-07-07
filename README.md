@@ -7,7 +7,6 @@ Given a  2D Array, :
 0 0 0 0 0 0
 0 0 0 0 0 0
 0 0 0 0 0 0
-
 ```
 
 An hourglass in  is a subset of values with indices falling in this pattern in 's graphical representation:
@@ -16,7 +15,6 @@ An hourglass in  is a subset of values with indices falling in this pattern in
 a b c
   d
 e f g
-
 ```
 
 There are  hourglasses in . An hourglass sum is the sum of an hourglass' values. Calculate the hourglass sum for every hourglass in , then print the maximum hourglass sum. The array will always be .
@@ -30,7 +28,6 @@ Example
  0  0  8  6 6 0
  0  0  0 -2 0 0
  0  0  1  2 4 0
-
 ```
 
 The  hourglass sums are:
@@ -40,7 +37,6 @@ The  hourglass sums are:
 -10,   0, 28, 23,
 -27, -11, -2, 10,
   9,  17, 25, 18
-
 ```
 
 The highest hourglass sum is  from the hourglass beginning at row , column :
@@ -49,7 +45,6 @@ The highest hourglass sum is  from the hourglass beginning at row , column :
 0 4 3
   1
 8 6 6
-
 ```
 
 Note: If you have already solved the Java domain's Java 2D Array challenge, you may wish to skip this challenge.
@@ -85,14 +80,12 @@ Sample Input
 0 0 2 4 4 0
 0 0 0 2 0 0
 0 0 1 2 4 0
-
 ```
 
 Sample Output
 
 ```
 19
-
 ```
 
 Explanation
@@ -101,7 +94,7 @@ Explanation
 
 ![image](https://s3.amazonaws.com/hr-assets/0/1534256743-35b846ad4a-hourglasssum.png)
 
-The hourglass with the maximum sum () is:
+The hourglass with the maximum sum() is:
 
 ```
 2 4 4
