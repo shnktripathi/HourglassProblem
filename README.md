@@ -47,7 +47,7 @@ The highest hourglass sum is  from the hourglass beginning at row , column :
 8 6 6
 ```
 
-Note: If you have already solved the Java domain's Java 2D Array challenge, you may wish to skip this challenge.
+**Note:** If you have already solved the Java domain's Java 2D Array challenge, you may wish to skip this challenge.
 
 Function Description
 
@@ -67,7 +67,7 @@ Each of the  lines of inputs  contains  space-separated integers .
 
 **Constraints**
 
--9 <= arr[i][j] <= 9
+-9 <= arr[i][j] <= 9   
 0 <= i,j <= 5
 
 **Output Format**
