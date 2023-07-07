@@ -19,7 +19,7 @@ e f g
 
 There are  hourglasses in . An hourglass sum is the sum of an hourglass' values. Calculate the hourglass sum for every hourglass in , then print the maximum hourglass sum. The array will always be .
 
-Example
+**Example**
 
 ```
 -9 -9 -9  1 1 1
@@ -57,21 +57,24 @@ hourglassSum has the following parameter(s):
 
 -   int arr[6][6]: an array of integers
 
-Returns
+**Returns**
 
 -   int: the maximum hourglass sum
 
-Input Format
+**Input Format**
 
 Each of the  lines of inputs  contains  space-separated integers .
 
-Constraints
+**Constraints**
 
-Output Format
+-9 <= arr[i][j] <= 9
+0 <= i,j <= 5
+
+**Output Format**
 
 Print the largest (maximum) hourglass sum found in .
 
-Sample Input
+**Sample Input**
 
 ```
 1 1 1 0 0 0
@@ -82,13 +85,13 @@ Sample Input
 0 0 1 2 4 0
 ```
 
-Sample Output
+**Sample Output**
 
 ```
 19
 ```
 
-Explanation
+**Explanation**
 
  contains the following hourglasses:
 
